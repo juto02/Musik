@@ -1,0 +1,234 @@
+/*Alla sidor*/
+/*Rubriken är centrerad*/
+h1{
+    text-align:center;
+}
+/*Global meny*/
+#globalmeny > ul {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+    margin:20px;
+    background-color:#ffb3bf;
+    border:solid black 4px;
+    border-radius:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+/*Bilderna i den globala menyn*/
+#globalmeny > ul img{
+    display:block;
+    border: solid black 2px;
+    border-radius:10px;
+    width:60px;
+    height:auto;
+}
+
+/*Main på varje sidan*/
+main{
+    margin:20px;
+    background-color:white;
+    border-radius:10px;
+    border:solid #ffb3bf 10px;
+}
+
+/*Bakgrunden*/
+body{ 
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCzrTBQhEuFt6ON1krHX-LI0NKh1T1TFP0TFJsgk9ABbVCAgpO&usqp=CAU)
+}
+/*Queires till videos och texter*/
+@media screen and (min-width:960px)
+{li{width:auto; height:auto;}
+    
+@media screen and (min-width:960px)
+{main{width:auto; height:auto;}
+    
+@media screen and (min-width:960px)
+{div{width:auto; height:auto;}
+    
+/*Några sidor*/
+/*Div med 3 spalter*/
+div{ 
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:20px;
+}
+
+/*Två spalter*/
+div.tvåsections{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+} 
+
+/*Marginal på 20px*/
+h2.margin20, p.margin20, table.margin20{
+    margin:20px;
+}
+/*Storlek på videon*/
+iframe{
+    height:315px;
+    width:560px;
+    border:5px solid pink;
+}
+/*färgerna på länkarna*/
+a:link{
+    color:hsl(210, 100%, 40%);
+}
+a:visited{
+    color:rgb(204, 0, 204);
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:black;
+}
+/*nedladdningsbart typsnitt*/
+@font-face {
+    font-family:sundayBest;
+        src: url(sundayBest.otf);
+}
+
+/*Fösta sidan*/
+/*Reklamen*/
+aside{
+    border:solid black 2px;
+    border-radius:5px;
+    background-color:#ffb3bf;
+    text-align:center;
+    margin:20px;
+}
+
+/*Bilden*/
+img.flickan{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+} 
+
+/*Bilden om reklamen*/
+img.goodlack{
+    width:300px;
+    height:auto;
+    border-radius:10px;
+}
+
+/*Texten på första sidan*/
+p.textförsta{
+    font-size:200%;
+    margin:20px;
+}
+
+h2.textförsta{ 
+    font-size:250%;
+    margin:20px;
+    text-align:center;
+    font-family: sundayBest;
+}
+/*låtsidan*/
+/*Den lokala menyn*/
+section.lokalmeny > nav > ul{
+    list-style:none;
+}
+section.lokalmeny > nav {
+    background-color:pink;
+    border:solid black 5px;
+    width:auto;
+    margin:20px;
+}
+h2.rubriklåt{
+    text-align:center;
+    text-transform:uppercase;
+}
+/*Bilden på pingvinen*/
+img.pingvin{
+    width:320px;
+    height:auto;
+    }
+
+/*Bilderna på låt sidorna*/
+img.låtbild{
+    height:auto;
+    width:500px;
+    margin:20px;
+}
+/*Pysselsidan*/
+/*Inga punkter på pyssel listan*/
+li.ingendecoration{ 
+    list-style:none;
+}
+
+/*Andra punkter på pyssel listan*/
+li.decoration{
+    list-style:circle;
+}
+
+/*Storleken på bilderna på pysselsidan*/
+img.maracas{
+    height:300px;
+    width:auto;
+}
+/*marginal på listan*/
+dl{
+    margin:20px;
+    }
+/*Danssidan*/
+/*Centrera dans sidan*/
+section.centerdans{ 
+    text-align:center;
+    font-size:3ex;
+    margin:20px;
+}
+/*Instrument sidan*/
+/*Storleken på bilderna på sidan om intrumenten*/
+img.bildinstrument{ 
+    width:300px;
+    height:auto;
+}
+
+/*Struktuen på sidan om instrumenten*/
+div.instrument{
+    display:grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+}
+
+/*Större storlek på texten om instrument*/
+p.instext{
+    font-size:140%;
+}
+
+/*Melodifestivalen sidan*/
+/*Tabellen på sista siadn*/
+table,th,td{
+    border: 1px solid black;
+    border-collapse:collapse;
+    padding:10px;
+}
+
+/*Färger på tabellen*/
+th{background-color: #ff0066;}
+tr:nth-child(odd) {background-color:#ff99cc;}
+tr:nth-child(even){background-color:#ffb3d1;}
+
+/*Design till formuläret*/
+h2.centerh2{
+    text-align:center;
+}
+form{
+    width:35em;
+    text-align:center;
+    margin:auto;
+    margin-bottom:20px;
+    background-color:#e6ffff;
+}
+/*Färg i footern*/
+footer{
+    background: linear-gradient(to top, pink 0%, #ccffff 100%);
+    }
+
+
+
+
